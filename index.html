@@ -96,6 +96,22 @@
         cursor: pointer;
       }
       .mute-btn:active { transform: scale(0.94); }
+      .home-pill {
+        flex: 0 0 auto;
+        display: inline-flex;
+        align-items: center;
+        min-height: 40px;
+        padding: 6px 13px;
+        border-radius: 999px;
+        border: 2px solid var(--panel-line);
+        background: var(--panel);
+        color: var(--ink);
+        font-size: 0.9rem;
+        font-weight: 700;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+      .home-pill:active { transform: scale(0.96); }
       /* ---------- Stage ---------- */
       .stage {
         position: relative;
@@ -270,6 +286,7 @@
   <body>
     <div class="game">
       <div class="hud" role="status" aria-label="Score">
+        <a class="home-pill" href="https://jesuslovestyler.com/">⌂ Home</a>
         <div class="stat">
           <span class="num" id="caughtNum">0</span>
           <span class="lbl">Fish caught</span>
@@ -1113,5 +1130,6 @@
       // Re-run layout once fonts/viewport settle on mobile
       setTimeout(resize, 250);
     </script>
+    <script data-goatcounter="https://jesuslovestyler.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </body>
 </html>
