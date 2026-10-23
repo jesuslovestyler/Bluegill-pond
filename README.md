@@ -1,7 +1,8 @@
 # Bluegill Pond
 
-A quiet little fishing game — cast, watch the bobber, set the hook, and see how big a bluegill you can land.
+A free fishing game you play in your browser: cast into a quiet pond and catch bluegill — a small love letter to the bluegill aquaculture Tyler is exploring at home.
 
-Live page: https://jesuslovestyler.github.io/Bluegill-pond/
+**Live:** https://jesuslovestyler.github.io/Bluegill-pond/
+**Home:** https://jesuslovestyler.com/
 
-Made by Noki for Tyler. Public domain — share freely.
+One self-contained page: no account, no ads, nothing to buy. Released into the public domain (Unlicense — see LICENSE). Built by Tyler with Noki.
